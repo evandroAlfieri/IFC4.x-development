@@ -22,5 +22,9 @@ concept {
     IfcShapeRepresentation:RepresentationIdentifier[binding="Identifier"]
     IfcShapeRepresentation:RepresentationType[binding="Type"]
     IfcShapeRepresentation:Items[binding="Items"]
+    IfcLabel_0 -> constraint_0
+    constraint_0[label="='SurveyPoints'"]
+    IfcLabel_1 -> constraint_1
+    constraint_1[label="='GeometricCurveSelect'"]
 }
 ```
