@@ -10,12 +10,7 @@ concept {
     IfcElement:HasOpenings -> IfcRelVoidsElement:RelatingBuildingElement
     IfcRelVoidsElement:RelatedOpeningElement -> IfcExcavation
     IfcExcavation:FillsVoids -> IfcRelFillsElement:RelatedBuildingElement
-    IfcRelFillsElement:RelatedBuildingElement -> IfcCourse
-    IfcRelFillsElement:RelatedBuildingElement -> IfcDeepFoundation
-    IfcRelFillsElement:RelatedBuildingElement -> IfcEarthworksFill
-    IfcRelFillsElement:RelatedBuildingElement -> IfcFooting
-    IfcRelFillsElement:RelatedBuildingElement -> IfcPavement
-    IfcRelFillsElement:RelatedBuildingElement -> IfcSlab
+    IfcRelFillsElement:RelatedBuildingElement -> IfcElement
     IfcElement:HasOpenings[binding="HasOpenings"]
     IfcRelVoidsElement:RelatedOpeningElement[binding="RelatedEarthworksCut"]
     IfcExcavation:FillsVoids[binding="FillsVoids"]
