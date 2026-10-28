@@ -1,7 +1,7 @@
 Survey Points Geometry
 ==========================
 
-Elements may provide a 'SurveyPoints' representation for defining a contour such as for _IfcSite_. It contains the survey points as a set of Cartesian points and optionally breaklines.
+Elements may provide a 'SurveyPoints' representation for defining a contour for _IfcSite_. It contains the survey points as a set of Cartesian points and optionally breaklines.
 
 The representation identifier and type and the only allowed single representation item of the 'SurveyPoints' representation are:
 
